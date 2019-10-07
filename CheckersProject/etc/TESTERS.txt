@@ -1,0 +1,11 @@
+INSTRUCTIONS FOR TESTERS
+
+How to build and start the web application:
+1) Open up the command prompt and navigate to the root folder of the project.
+2) Run the command "mvn compile exec:java" in the command prompt.
+3) Open a browser to "localhost:4567" to reach the home page of the web app.
+4) Optionally open other browsers to the same place if more users are needed.
+
+Additional notes:
+- Moves are not fully implemented yet. This may affect a far bit of tests.
+- The board is displayed in the incorrect orientation for each player when the game is started. This is a known issue.
